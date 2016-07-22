@@ -85,7 +85,6 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="fruitPicker" destination="Hqg-RL-roi" id="Imy-LD-qQW"/>
                         <outlet property="resultLabel" destination="z9t-CE-N2h" id="jR8-KO-Jss"/>
                         <outlet property="spinButton" destination="OrZ-qi-3Ge" id="j09-Jd-I6p"/>
                     </connections>
