@@ -1,0 +1,6 @@
+framework module Pods_PickinFruitUITests {
+  umbrella header "Pods-PickinFruitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

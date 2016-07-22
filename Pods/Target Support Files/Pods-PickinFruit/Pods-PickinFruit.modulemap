@@ -1,0 +1,6 @@
+framework module Pods_PickinFruit {
+  umbrella header "Pods-PickinFruit-umbrella.h"
+
+  export *
+  module * { export * }
+}
