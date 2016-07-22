@@ -1,6 +1,6 @@
 # Pickin Fruit
 
-![Fruit](https://s3.amazonaws.com/learn-verified/antique-slot-machine.jpg)
+![Fruit](https://s3.amazonaws.com/learn-verified/antique-slot-game.jpg)
 
 ## Objectives
 
