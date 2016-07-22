@@ -15,15 +15,13 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var resultLabel: UILabel!
     
     var fruitsArray = ["🍎", "🍊", "🍌", "🍐", "🍇", "🍉", "🍓", "🍒", "🍍"]
-    
-    // Solution
+
     let numberOfComponents = 3
     let numberOfRows = 1000
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Solution
         self.fruitPicker.accessibilityLabel = Constants.FRUIT_PICKER
         self.spinButton.accessibilityLabel = Constants.SPIN_BUTTON
         
@@ -38,14 +36,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         
     }
     
-    @IBAction func spinButtonTapped(sender: UIButton) {
-        
-        // Solution
-        pickSomeFruit()
-        
-    }
-    
-    // Solution
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return self.numberOfComponents
     }
@@ -56,6 +46,12 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return self.fruitsArray[row % self.fruitsArray.count]
+    }
+    
+    @IBAction func spinButtonTapped(sender: UIButton) {
+        
+        pickSomeFruit()
+        
     }
     
     func pickSomeFruit() {
