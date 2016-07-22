@@ -1,6 +1,6 @@
-# Airports & Enums
+# Pickin Fruit
 
-![Airplane Landing](https://s3.amazonaws.com/learn-verified/airplane-landing.jpg)
+![Fruit](https://s3.amazonaws.com/learn-verified/fruity-eyes.jpg)
 
 ## Objectives
 
