@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         fruitPicker.selectRow(generateNum3, inComponent:2, animated: true)
         if generateNum1 == generateNum2 && generateNum2 == generateNum3 {
             self.resultLabel.hidden = false
-            self.resultLabel.text = "YOU WON"
+            self.resultLabel.text = "WINNER!"
         } else {
             self.resultLabel.hidden = false
             self.resultLabel.text = "TRY AGAIN"
