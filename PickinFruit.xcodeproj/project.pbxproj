@@ -204,6 +204,7 @@
 				TargetAttributes = {
 					5D4704A21D3C6B31009B6ECC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9LZ34BLS2W;
 					};
 					5D4704B61D3C6B32009B6ECC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -481,10 +482,13 @@
 			baseConfigurationReference = 2B1F8393A6E12BA782061A62 /* Pods-PickinFruit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PickinFruit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlatironSchool.com.PickinFruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -493,10 +497,13 @@
 			baseConfigurationReference = 2779F28FB5443959865104A8 /* Pods-PickinFruit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PickinFruit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FlatironSchool.com.PickinFruit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
